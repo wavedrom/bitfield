@@ -1,0 +1,10 @@
+{
+    env: {
+        node: true
+    },
+    rules: {
+        strict: [2, 'global'],
+        semi: [2, 'always'],
+        quotes: [1, 'single']
+    }
+}
