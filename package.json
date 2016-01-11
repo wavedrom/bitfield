@@ -4,7 +4,7 @@
   "description": "bit field diagram",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint lib/*.js test/*.js && istanbul cover _mocha test"
+    "test": "eslint **/*.js && istanbul cover ./node_modules/mocha/bin/_mocha test"
   },
   "author": "Aliaksei Chapyzhenka",
   "license": "MIT",
