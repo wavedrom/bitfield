@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="649" height="161" viewBox="0 0 649 161">
+  <g transform="translate(4.5,80.5)">
+    <g stroke="black" stroke-width="1" stroke-linecap="round" transform="translate(0,20)">
+      <line x2="640"/>
+      <line y2="40"/>
+      <line x2="640" y1="40" y2="40"/>
+      <line x1="640" x2="640" y2="40"/>
+      <line x1="600" x2="600" y2="5"/>
+      <line x1="600" x2="600" y1="35" y2="40"/>
+      <line x1="560" x2="560" y2="5"/>
+      <line x1="560" x2="560" y1="35" y2="40"/>
+      <line x1="520" x2="520" y2="5"/>
+      <line x1="520" x2="520" y1="35" y2="40"/>
+      <line x1="480" x2="480" y2="5"/>
+      <line x1="480" x2="480" y1="35" y2="40"/>
+      <line x1="440" x2="440" y2="5"/>
+      <line x1="440" x2="440" y1="35" y2="40"/>
+      <line x1="400" x2="400" y2="5"/>
+      <line x1="400" x2="400" y1="35" y2="40"/>
+      <line x1="360" x2="360" y2="5"/>
+      <line x1="360" x2="360" y1="35" y2="40"/>
+      <line x1="320" x2="320" y2="40"/>
+      <line x1="280" x2="280" y2="5"/>
+      <line x1="280" x2="280" y1="35" y2="40"/>
+      <line x1="240" x2="240" y2="5"/>
+      <line x1="240" x2="240" y1="35" y2="40"/>
+      <line x1="200" x2="200" y2="5"/>
+      <line x1="200" x2="200" y1="35" y2="40"/>
+      <line x1="160" x2="160" y2="5"/>
+      <line x1="160" x2="160" y1="35" y2="40"/>
+      <line x1="120" x2="120" y2="5"/>
+      <line x1="120" x2="120" y1="35" y2="40"/>
+      <line x1="80" x2="80" y2="5"/>
+      <line x1="80" x2="80" y1="35" y2="40"/>
+      <line x1="40" x2="40" y2="40"/>
+    </g>
+    <g text-anchor="middle">
+      <g transform="translate(20,16)">
+        <text x="600">0</text>
+        <text x="320">7</text>
+        <text x="280">8</text>
+        <text x="40">14</text>
+        <text x="0">15</text>
+      </g>
+      <g transform="translate(0,44)"/>
+      <g transform="translate(0,73.6)"/>
+    </g>
+  </g>
+  <g transform="translate(4.5,0.5)">
+    <g stroke="black" stroke-width="1" stroke-linecap="round" transform="translate(0,20)">
+      <line x2="640"/>
+      <line y2="40"/>
+      <line x2="640" y1="40" y2="40"/>
+      <line x1="640" x2="640" y2="40"/>
+      <line x1="600" x2="600" y2="5"/>
+      <line x1="600" x2="600" y1="35" y2="40"/>
+      <line x1="560" x2="560" y2="5"/>
+      <line x1="560" x2="560" y1="35" y2="40"/>
+      <line x1="520" x2="520" y2="5"/>
+      <line x1="520" x2="520" y1="35" y2="40"/>
+      <line x1="480" x2="480" y2="40"/>
+      <line x1="440" x2="440" y2="5"/>
+      <line x1="440" x2="440" y1="35" y2="40"/>
+      <line x1="400" x2="400" y2="5"/>
+      <line x1="400" x2="400" y1="35" y2="40"/>
+      <line x1="360" x2="360" y2="5"/>
+      <line x1="360" x2="360" y1="35" y2="40"/>
+      <line x1="320" x2="320" y2="5"/>
+      <line x1="320" x2="320" y1="35" y2="40"/>
+      <line x1="280" x2="280" y2="5"/>
+      <line x1="280" x2="280" y1="35" y2="40"/>
+      <line x1="240" x2="240" y2="40"/>
+      <line x1="200" x2="200" y2="5"/>
+      <line x1="200" x2="200" y1="35" y2="40"/>
+      <line x1="160" x2="160" y2="5"/>
+      <line x1="160" x2="160" y1="35" y2="40"/>
+      <line x1="120" x2="120" y2="5"/>
+      <line x1="120" x2="120" y1="35" y2="40"/>
+      <line x1="80" x2="80" y2="5"/>
+      <line x1="80" x2="80" y1="35" y2="40"/>
+      <line x1="40" x2="40" y2="5"/>
+      <line x1="40" x2="40" y1="35" y2="40"/>
+    </g>
+    <g text-anchor="middle">
+      <g transform="translate(20,16)">
+        <text x="480">19</text>
+        <text x="440">20</text>
+        <text x="240">25</text>
+        <text x="200">26</text>
+        <text x="120">28</text>
+      </g>
+      <g transform="translate(0,44)"/>
+      <g transform="translate(0,73.6)"/>
+    </g>
+  </g>
+</svg>
+

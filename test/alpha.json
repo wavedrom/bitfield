@@ -1,0 +1,7 @@
+[
+    { "name": "IPO",   "bits": 8, "access": "RO" },
+    { "name": "BRK",   "bits": 7, "access": "RW" },
+    { "bits": 5 },
+    { "name": "CPK",   "bits": 6 },
+    { "name": "Clear", "bits": 3 }
+]

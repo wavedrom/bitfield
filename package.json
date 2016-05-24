@@ -11,10 +11,12 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "eslint": "^1.10.3",
+    "fs-extra": "^0.30.0",
     "istanbul": "^0.4.1",
     "jsof": "^0.2.1",
     "mocha": "^2.3.4",
-    "onml": "^0.2.0"
+    "onml": "^0.2.0",
+    "yargs": "^4.7.1"
   },
   "directories": {
     "test": "test"
