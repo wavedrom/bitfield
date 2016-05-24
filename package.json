@@ -1,6 +1,6 @@
 {
   "name": "bitfield",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "bit field diagram",
   "main": "lib/index.js",
   "scripts": {
