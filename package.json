@@ -21,7 +21,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tspan": "^0.1.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/drom/bitfield.git"

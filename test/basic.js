@@ -3,6 +3,7 @@
 var lib = require('../lib'),
     onml = require('onml'),
     jsof = require('jsof'),
+    alpha = require('./alpha.json'),
     expect = require('chai').expect;
 
 var dat = {
@@ -11,13 +12,7 @@ var dat = {
         dst: []
     },
     bytes: {
-        src: [
-            { name: 'A', bits: 8 },
-            { name: 'B', bits: 7 },
-            { name: 'C', bits: 5 },
-            { name: 'D', bits: 6 },
-            { name: 'E', bits: 3 }
-        ],
+        src: alpha,
         dst: []
     },
 };

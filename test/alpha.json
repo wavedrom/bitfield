@@ -1,7 +1,8 @@
 [
-    { "name": "IPO",   "bits": 8, "access": "RO" },
-    { "name": "BRK",   "bits": 7, "access": "RW" },
-    { "bits": 5 },
-    { "name": "CPK",   "bits": 6 },
-    { "name": "Clear", "bits": 3 }
+    { "name": "IPO",   "bits": 8, "attr": "RO" },
+    {                  "bits": 7 },
+    { "name": "BRK",   "bits": 5, "attr": "RW" },
+    { "name": "CPK",   "bits": 1 },
+    { "name": "Clear", "bits": 3 },
+    { "bits": 8 }
 ]

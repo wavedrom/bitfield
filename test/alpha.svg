@@ -35,15 +35,34 @@
       <line x1="40" x2="40" y2="40"/>
     </g>
     <g text-anchor="middle">
-      <g transform="translate(20,16)">
-        <text x="600">0</text>
-        <text x="320">7</text>
-        <text x="280">8</text>
-        <text x="40">14</text>
-        <text x="0">15</text>
+      <g>
+        <g transform="translate(0,20)">
+          <rect style="fill-opacity:0.1" x="40" y="0" width="280" height="40"/>
+        </g>
+        <g transform="translate(20,16)">
+          <text x="600">0</text>
+          <text x="320">7</text>
+          <text x="280">8</text>
+          <text x="40">14</text>
+          <text x="0">15</text>
+        </g>
+        <g transform="translate(20,44)">
+          <text x="460">
+            <tspan>IPO</tspan>
+          </text>
+          <text x="0">
+            <tspan>BRK</tspan>
+          </text>
+        </g>
+        <g transform="translate(20,80)">
+          <text x="460">
+            <tspan>RO</tspan>
+          </text>
+          <text x="0">
+            <tspan>RW</tspan>
+          </text>
+        </g>
       </g>
-      <g transform="translate(0,44)"/>
-      <g transform="translate(0,73.6)"/>
     </g>
   </g>
   <g transform="translate(4.5,0.5)">
@@ -59,17 +78,16 @@
       <line x1="520" x2="520" y2="5"/>
       <line x1="520" x2="520" y1="35" y2="40"/>
       <line x1="480" x2="480" y2="40"/>
-      <line x1="440" x2="440" y2="5"/>
-      <line x1="440" x2="440" y1="35" y2="40"/>
+      <line x1="440" x2="440" y2="40"/>
       <line x1="400" x2="400" y2="5"/>
       <line x1="400" x2="400" y1="35" y2="40"/>
       <line x1="360" x2="360" y2="5"/>
       <line x1="360" x2="360" y1="35" y2="40"/>
-      <line x1="320" x2="320" y2="5"/>
-      <line x1="320" x2="320" y1="35" y2="40"/>
+      <line x1="320" x2="320" y2="40"/>
       <line x1="280" x2="280" y2="5"/>
       <line x1="280" x2="280" y1="35" y2="40"/>
-      <line x1="240" x2="240" y2="40"/>
+      <line x1="240" x2="240" y2="5"/>
+      <line x1="240" x2="240" y1="35" y2="40"/>
       <line x1="200" x2="200" y2="5"/>
       <line x1="200" x2="200" y1="35" y2="40"/>
       <line x1="160" x2="160" y2="5"/>
@@ -82,15 +100,36 @@
       <line x1="40" x2="40" y1="35" y2="40"/>
     </g>
     <g text-anchor="middle">
-      <g transform="translate(20,16)">
-        <text x="480">19</text>
-        <text x="440">20</text>
-        <text x="240">25</text>
-        <text x="200">26</text>
-        <text x="120">28</text>
+      <g>
+        <g transform="translate(0,20)">
+          <rect style="fill-opacity:0.1" x="0" y="0" width="320" height="40"/>
+        </g>
+        <g transform="translate(20,16)">
+          <text x="600">16</text>
+          <text x="480">19</text>
+          <text x="440">20</text>
+          <text x="400">21</text>
+          <text x="320">23</text>
+          <text x="280">24</text>
+          <text x="0">31</text>
+        </g>
+        <g transform="translate(20,44)">
+          <text x="540">
+            <tspan>BRK</tspan>
+          </text>
+          <text x="440">
+            <tspan>CPK</tspan>
+          </text>
+          <text x="360">
+            <tspan>Clear</tspan>
+          </text>
+        </g>
+        <g transform="translate(20,80)">
+          <text x="540">
+            <tspan>RW</tspan>
+          </text>
+        </g>
       </g>
-      <g transform="translate(0,44)"/>
-      <g transform="translate(0,73.6)"/>
     </g>
   </g>
 </svg>
