@@ -1,7 +1,7 @@
 {
-  "name": "bitfield",
+  "name": "bit-field",
   "version": "0.1.0",
-  "description": "bit field diagram",
+  "description": "rendering bit field diagram from the description",
   "main": "lib/index.js",
   "scripts": {
     "test": "eslint **/*.js && istanbul cover ./node_modules/mocha/bin/_mocha test"
