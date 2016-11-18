@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "rendering bit field diagram from the description",
   "bin": {
-    "eslint": "./bin/bitfield.js"
+    "bitfield": "./bin/bitfield.js"
   },
   "main": "lib/index.js",
   "scripts": {
