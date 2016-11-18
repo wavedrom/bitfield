@@ -1,10 +1,15 @@
 [![Build Status](https://travis-ci.org/drom/bitfield.svg?branch=master)](https://travis-ci.org/drom/bitfield)
+[![NPM version](https://img.shields.io/npm/v/bit-field.svg)](https://www.npmjs.org/package/bit-field)
 
-# BitField
+## Install
+
+```sh
+npm i bit-field
+```
 
 ## Usage
 
-```js
+```sh
 bin/bitfield.js test/alpha.json > alpha.svg
 ```
 
