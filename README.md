@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/drom/bitfield.svg?branch=master)](https://travis-ci.org/drom/bitfield)
 [![NPM version](https://img.shields.io/npm/v/bit-field.svg)](https://www.npmjs.org/package/bit-field)
+[![Travis ](https://travis-ci.org/drom/bitfield.svg?branch=master)](https://travis-ci.org/drom/bitfield)
+[![appVeyor](https://ci.appveyor.com/api/projects/status/o4q4cpfclmqnxgmy?svg=true)](https://ci.appveyor.com/project/drom/bitfield)
 
 ## Install
 

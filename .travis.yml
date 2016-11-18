@@ -4,6 +4,7 @@ os:
 sudo: false
 env:
   matrix:
+  - TRAVIS_NODE_VERSION="7"
   - TRAVIS_NODE_VERSION="6"
   - TRAVIS_NODE_VERSION="5"
   - TRAVIS_NODE_VERSION="4"
