@@ -6,7 +6,7 @@ var lib = require('../lib'),
     yargs = require('yargs'),
     onml = require('onml');
 
-var argv = yargs.count('icestorm').argv;
+var argv = yargs.argv;
 var fileName;
 
 if (argv._.length === 1) {
