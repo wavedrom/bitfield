@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/drom/bitfield.svg?branch=master)](https://travis-ci.org/drom/bitfield)
+
 # BitField
 
 ## Usage
