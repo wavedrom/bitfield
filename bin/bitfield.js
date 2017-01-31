@@ -20,17 +20,10 @@ if (argv.input){
     if(argv.hspace){options.hspace = argv.hspace}
     if(argv.lanes){options.lanes = argv.lanes}
     if(argv.bits){options.bits = argv.bits}
-    if(argv.font_family){options.font_family = argv.font_family}
+    if(argv.fontfamily){options.fontfamily = argv.fontfamily}
+    if(argv.fontweight){options.fontweight = argv.fontweight}
+    if(argv.fontsize){options.fontsize = argv.fontsize}
 
-    // if (argv.vspace && argv.hspace && argv.lanes && argv.bits){
-    //   // console.log(options.vspace);
-    //     options = {
-    //         vspace: argv.vspace,
-    //         hspace: argv.hspace,
-    //         lanes: argv.lanes,
-    //         bits: argv.bits
-    //     };
-    // }
     fileName = argv.input;
     fs.readJson(fileName, function (err, src) {
         var res = lib.render(src, options);
