@@ -8,22 +8,15 @@ var lib = require('../lib'),
 
 var argv = yargs.argv;
 var fileName;
+
 var options = {
-    vspace: 80,
-    hspace: 640,
-    lanes: 2,
-    bits: 32
+    vspace: argv.vspace || 80,
+    hspace: argv.hspace || 640,
+    lanes:  argv.lanes  || 2,
+    bits:   argv.bits   || 32
 };
 
-if (argv.input){
-    if (argv.vspace && argv.hspace && argv.lanes && argv.bits){
-        options = {
-            vspace: argv.vspace,
-            hspace: argv.hspace,
-            lanes: argv.lanes,
-            bits: argv.bits
-        };
-    }
+if (argv.input) {
     fileName = argv.input;
     fs.readJson(fileName, function (err, src) {
         var res = lib.render(src, options);

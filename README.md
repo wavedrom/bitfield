@@ -11,10 +11,10 @@ npm i bit-field
 ## Usage
 
 ```sh
-bin/bitfield.js <options> test/alpha.json > alpha.svg
+bin/bitfield.js [options] > alpha.svg
 ```
 
-### CLI options
+### options
 
 ```
 --input : input JSON filename - must be specified always
