@@ -11,7 +11,17 @@ npm i bit-field
 ## Usage
 
 ```sh
-bin/bitfield.js test/alpha.json > alpha.svg
+bin/bitfield.js <options> test/alpha.json > alpha.svg
+```
+
+### CLI options
+
+```
+--input : input JSON filename - must be specified always
+--vspace : vertical space - default 80
+--hspace : horizontal space - default 640
+--lanes : rectangle lanes - default 2
+--bits : overall bitwidth - default 32
 ```
 
 ### alpha.json
