@@ -13,7 +13,8 @@ var options = {
     vspace: argv.vspace || 80,
     hspace: argv.hspace || 640,
     lanes:  argv.lanes  || 2,
-    bits:   argv.bits   || 32
+    bits:   argv.bits   || 32,
+    bigendian: false
 };
 
 if (argv.input) {
