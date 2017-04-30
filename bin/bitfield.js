@@ -14,7 +14,7 @@ var options = {
     hspace: argv.hspace || 640,
     lanes:  argv.lanes  || 2,
     bits:   argv.bits   || 32,
-    bigendian: false
+    bigendian: argv.gigendian || false
 };
 
 if (argv.input) {
