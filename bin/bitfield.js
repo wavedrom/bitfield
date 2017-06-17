@@ -17,7 +17,7 @@ var options = {
     bigendian: argv.gigendian || false,
     fontfamily: argv.fontfamily || "sans-serif",
     fontweight : argv.fontweight || "normal",
-    fontsize : argv:fontsize || 14,
+    fontsize : argv.fontsize || 14,
 };
 
 if (argv.input) {
