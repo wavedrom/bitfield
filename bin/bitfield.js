@@ -8,34 +8,19 @@ var lib = require('../lib'),
 
 var argv = yargs.argv;
 var fileName;
+
 var options = {
-    vspace: 80,
-    hspace: 640,
-    lanes: 2,
-    bits: 32
+    vspace: argv.vspace || 80,
+    hspace: argv.hspace || 640,
+    lanes:  argv.lanes  || 2,
+    bits:   argv.bits   || 32,
+    bigendian: argv.gigendian || false,
+    fontfamily: argv.fontfamily || "sans-serif",
+    fontweight : argv.fontweight || "normal",
+    fontsize : argv:fontsize || 14,
 };
 
-if (argv.input){
-    if(argv.vspace){options.vspace = argv.vspace}
-    if(argv.hspace){options.hspace = argv.hspace}
-    if(argv.lanes){options.lanes = argv.lanes}
-    if(argv.bits){options.bits = argv.bits}
-    if(argv.fontfamily){
-      options.fontfamily = argv.fontfamily
-    }else{
-      options.fontfamily = "sans-serif" // default
-    }
-    if(argv.fontweight){
-      options.fontweight = argv.fontweight
-    }else{
-      options.fontweight = "normal" // default
-    }
-    if(argv.fontsize){
-      options.fontsize = argv.fontsize
-    }else{
-      options.fontsize = 14 // default
-    }
-
+if (argv.input) {
     fileName = argv.input;
     fs.readJson(fileName, function (err, src) {
         var res = lib.render(src, options);

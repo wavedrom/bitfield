@@ -1,6 +1,6 @@
 {
   "name": "bit-field",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "rendering bit field diagram from the description",
   "bin": {
     "bitfield": "./bin/bitfield.js"
@@ -14,18 +14,18 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.13.1",
-    "fs-extra": "^1.0.0",
     "istanbul": "^0.4.5",
-    "jsof": "^0.2.1",
-    "mocha": "^3.1.2",
-    "onml": "^0.3.1",
-    "yargs": "^6.4.0"
+    "jsof": "^0.3.0",
+    "mocha": "^3.1.2"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "tspan": "^0.1.4"
+    "fs-extra": "^1.0.0",
+    "onml": "^0.4.0",
+    "tspan": "^0.1.4",
+    "yargs": "^6.4.0"
   },
   "repository": {
     "type": "git",
