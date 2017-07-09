@@ -1,7 +1,9 @@
-node_modules
-coverage
-test
 .eslintrc
+.nyc_output
 .travis.yml
 appveyor.yml
+coverage
+node_modules
+package-lock.json
+test
 *.svg

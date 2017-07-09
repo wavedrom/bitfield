@@ -7,25 +7,25 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint **/*.js && istanbul cover ./node_modules/mocha/bin/_mocha test"
+    "test": "eslint **/*.js && nyc mocha test"
   },
   "author": "Aliaksei Chapyzhenka",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^2.13.1",
-    "istanbul": "^0.4.5",
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
     "jsof": "^0.3.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "nyc": "^11.0.3"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^1.0.0",
+    "fs-extra": "^3.0.1",
     "onml": "^0.4.0",
     "tspan": "^0.1.4",
-    "yargs": "^6.4.0"
+    "yargs": "^8.0.2"
   },
   "repository": {
     "type": "git",
