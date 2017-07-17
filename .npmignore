@@ -1,4 +1,4 @@
-.eslintrc
+.eslintrc.js
 .nyc_output
 .travis.yml
 appveyor.yml

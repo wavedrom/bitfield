@@ -3,8 +3,8 @@
 var lib = require('../lib'),
     onml = require('onml'),
     jsof = require('jsof'),
-    alpha = require('./alpha.json'),
-    expect = require('chai').expect;
+    alpha = require('./alpha.json');
+    // expect = require('chai').expect;
 
 var dat = {
     word: {
@@ -32,8 +32,10 @@ describe('basic', function () {
                 throw err;
             }
             dst.unshift('text', {x: 20, y: 20, 'font-size': 16 });
-            var svg = ['svg', { viewBox: '0 0 400 100', width: 400, height: 100, xmlns: 'http://www.w3.org/2000/svg' }, dst];
+            // var svg = ['svg', { viewBox: '0 0 400 100', width: 400, height: 100, xmlns: 'http://www.w3.org/2000/svg' }, dst];
             done();
         });
     });
 });
+/* eslint no-console: 0 */
+/* eslint-env mocha */

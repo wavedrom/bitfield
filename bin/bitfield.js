@@ -15,8 +15,8 @@ var options = {
     lanes:  argv.lanes  || 2,
     bits:   argv.bits   || 32,
     bigendian: argv.gigendian || false,
-    fontfamily: argv.fontfamily || "sans-serif",
-    fontweight : argv.fontweight || "normal",
+    fontfamily: argv.fontfamily || 'sans-serif',
+    fontweight : argv.fontweight || 'normal',
     fontsize : argv.fontsize || 14,
 };
 
@@ -30,3 +30,5 @@ if (argv.input) {
 } else {
     console.log(argv);
 }
+
+/* eslint no-console: 0 */
