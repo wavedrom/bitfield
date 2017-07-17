@@ -1,9 +1,11 @@
-.eslintrc.js
 .nyc_output
-.travis.yml
-appveyor.yml
 coverage
 node_modules
 package-lock.json
+
+.eslintrc.js
+.npmignore
+.travis.yml
+appveyor.yml
 test
 *.svg

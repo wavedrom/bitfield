@@ -17,16 +17,15 @@
     "fs-extra": "^3.0.1",
     "jsof": "^0.3.0",
     "mocha": "^3.1.2",
-    "nyc": "^11.0.3"
+    "onml": "^0.4.0",
+    "nyc": "^11.0.3",
+    "yargs": "^8.0.2"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^3.0.1",
-    "onml": "^0.4.0",
-    "tspan": "^0.1.4",
-    "yargs": "^8.0.2"
+    "tspan": "^0.2.1"
   },
   "repository": {
     "type": "git",
