@@ -17,11 +17,15 @@ bin/bitfield.js [options] > alpha.svg
 ### options
 
 ```
---input : input JSON filename - must be specified always
---vspace : vertical space - default 80
---hspace : horizontal space - default 640
---lanes : rectangle lanes - default 2
---bits : overall bitwidth - default 32
+--input      : input JSON filename - must be specified always
+--vspace     : vertical space - default 80
+--hspace     : horizontal space - default 640
+--lanes      : rectangle lanes - default 2
+--bits       : overall bitwidth - default 32
+--bigendian  : - default false
+--fontfamily : - default sans-serif
+--fontweight : - default normal
+--fontsize   : - default 14
 ```
 
 ### alpha.json

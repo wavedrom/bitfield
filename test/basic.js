@@ -13,7 +13,8 @@ var dat = {
     },
     bytes: {
         src: alpha,
-        dst: []
+        dst: [],
+        opt: { hspace: 800 }
     },
 };
 
