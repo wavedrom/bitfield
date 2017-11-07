@@ -37,7 +37,7 @@ bin/bitfield.js [options] > alpha.svg
     { "name": "BRK",   "bits": 5, "attr": "RW" },
     { "name": "CPK",   "bits": 1 },
     { "name": "Clear", "bits": 3 },
-    { "bits": 8 }
+    {                  "bits": 8 }
 ]
 ```
 ### alpha.svg
