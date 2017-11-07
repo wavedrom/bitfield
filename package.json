@@ -7,7 +7,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint **/*.js && nyc mocha test",
+    "test": "eslint lib/*.js && nyc mocha test",
     "alpha": "./bin/bitfield.js --input test/alpha.json --hspace 800 > test/alpha.svg"
   },
   "author": "Aliaksei Chapyzhenka",
