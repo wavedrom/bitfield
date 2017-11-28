@@ -8,7 +8,26 @@
 npm i bit-field
 ```
 
-## Usage
+## Library usage
+
+```js
+var render = require('bit-filed/lib/render');
+var onml = require('onml');
+
+var reg = [
+  {bits: 8, name: 'data'}
+];
+
+var options = {
+  hspace: 888
+};
+
+var jsonml = render(reg, options);
+var html = onml.stringify(jsonml);
+// <svg...>
+```
+
+## CLI Usage
 
 ```sh
 bin/bitfield.js [options] > alpha.svg
