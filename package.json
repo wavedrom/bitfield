@@ -8,25 +8,34 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "eslint lib/*.js && nyc mocha test",
-    "alpha": "./bin/bitfield.js --input test/alpha.json --hspace 800 > test/alpha.svg"
+    "alpha": "./bin/bitfield.js --input test/alpha.json --hspace 800 > test/alpha.svg",
+    "browserify": "browserify --standalone bitfield lib/index.js > build/bitfield.js",
+    "prepublish": "npm run test && mkdir -p build && npm run browserify"
   },
+  "files": [
+    "build/bitfield.js",
+    "bin/*",
+    "lib/*"
+  ],
+  "unpkg": "build/bitfield.js",
   "author": "Aliaksei Chapyzhenka",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^16.2.2",
     "chai": "^4.1.2",
     "eslint": "^4.10.0",
     "jsof": "^0.3.1",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0"
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^4.0.2",
+    "fs-extra": "^6.0.1",
     "onml": "^0.4.0",
-    "tspan": "^0.2.1",
-    "yargs": "^10.0.3"
+    "tspan": "^0.3.6",
+    "yargs": "^11.1.0"
   },
   "repository": {
     "type": "git",
