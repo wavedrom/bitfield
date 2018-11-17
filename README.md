@@ -53,10 +53,10 @@ bin/bitfield.js [options] > alpha.svg
 [
     { "name": "IPO",   "bits": 8, "attr": "RO" },
     {                  "bits": 7 },
-    { "name": "BRK",   "bits": 5, "attr": "RW" },
+    { "name": "BRK",   "bits": 5, "attr": "RW", "type": 4 },
     { "name": "CPK",   "bits": 1 },
     { "name": "Clear", "bits": 3 },
-    {                  "bits": 8 }
+    { "bits": 8 }
 ]
 ```
 ### alpha.svg
