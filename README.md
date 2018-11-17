@@ -62,3 +62,7 @@ bin/bitfield.js [options] > alpha.svg
 ### alpha.svg
 
 ![Heat Sink](https://rawgit.com/drom/bitfield/master/test/alpha.svg)
+
+## Online Examples
+
+  * https://beta.observablehq.com/@drom/nop-v
