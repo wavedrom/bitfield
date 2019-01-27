@@ -1,65 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="649" height="165" viewBox="0 0 649 165">
+<svg xmlns="http://www.w3.org/2000/svg" width="809" height="165" viewBox="0 0 809 165">
   <g transform="translate(4.5,80.5)">
     <g stroke="black" stroke-width="1" stroke-linecap="round" transform="translate(0,20)">
-      <line x2="640"/>
+      <line x2="800"/>
       <line y2="40"/>
-      <line x2="640" y1="40" y2="40"/>
-      <line x1="640" x2="640" y2="40"/>
+      <line x2="800" y1="40" y2="40"/>
+      <line x1="800" x2="800" y2="40"/>
+      <line x1="750" x2="750" y2="5"/>
+      <line x1="750" x2="750" y1="35" y2="40"/>
+      <line x1="700" x2="700" y2="5"/>
+      <line x1="700" x2="700" y1="35" y2="40"/>
+      <line x1="650" x2="650" y2="5"/>
+      <line x1="650" x2="650" y1="35" y2="40"/>
       <line x1="600" x2="600" y2="5"/>
       <line x1="600" x2="600" y1="35" y2="40"/>
-      <line x1="560" x2="560" y2="5"/>
-      <line x1="560" x2="560" y1="35" y2="40"/>
-      <line x1="520" x2="520" y2="5"/>
-      <line x1="520" x2="520" y1="35" y2="40"/>
-      <line x1="480" x2="480" y2="5"/>
-      <line x1="480" x2="480" y1="35" y2="40"/>
-      <line x1="440" x2="440" y2="5"/>
-      <line x1="440" x2="440" y1="35" y2="40"/>
-      <line x1="400" x2="400" y2="5"/>
-      <line x1="400" x2="400" y1="35" y2="40"/>
-      <line x1="360" x2="360" y2="5"/>
-      <line x1="360" x2="360" y1="35" y2="40"/>
-      <line x1="320" x2="320" y2="40"/>
-      <line x1="280" x2="280" y2="5"/>
-      <line x1="280" x2="280" y1="35" y2="40"/>
-      <line x1="240" x2="240" y2="5"/>
-      <line x1="240" x2="240" y1="35" y2="40"/>
+      <line x1="550" x2="550" y2="5"/>
+      <line x1="550" x2="550" y1="35" y2="40"/>
+      <line x1="500" x2="500" y2="5"/>
+      <line x1="500" x2="500" y1="35" y2="40"/>
+      <line x1="450" x2="450" y2="5"/>
+      <line x1="450" x2="450" y1="35" y2="40"/>
+      <line x1="400" x2="400" y2="40"/>
+      <line x1="350" x2="350" y2="5"/>
+      <line x1="350" x2="350" y1="35" y2="40"/>
+      <line x1="300" x2="300" y2="5"/>
+      <line x1="300" x2="300" y1="35" y2="40"/>
+      <line x1="250" x2="250" y2="5"/>
+      <line x1="250" x2="250" y1="35" y2="40"/>
       <line x1="200" x2="200" y2="5"/>
       <line x1="200" x2="200" y1="35" y2="40"/>
-      <line x1="160" x2="160" y2="5"/>
-      <line x1="160" x2="160" y1="35" y2="40"/>
-      <line x1="120" x2="120" y2="5"/>
-      <line x1="120" x2="120" y1="35" y2="40"/>
-      <line x1="80" x2="80" y2="5"/>
-      <line x1="80" x2="80" y1="35" y2="40"/>
-      <line x1="40" x2="40" y2="40"/>
+      <line x1="150" x2="150" y2="5"/>
+      <line x1="150" x2="150" y1="35" y2="40"/>
+      <line x1="100" x2="100" y2="5"/>
+      <line x1="100" x2="100" y1="35" y2="40"/>
+      <line x1="50" x2="50" y2="40"/>
     </g>
     <g text-anchor="middle">
       <g>
         <g transform="translate(0,20)">
-          <rect style="fill-opacity:0.1" x="40" y="0" width="280" height="40"/>
-          <rect style="fill-opacity:0.1;fill:hsl(146,100%,50%)" x="0" y="0" width="40" height="40"/>
+          <rect style="fill-opacity:0.1" x="50" y="0" width="350" height="40"/>
+          <rect style="fill-opacity:0.1;fill:hsl(170,100%,50%)" x="0" y="0" width="50" height="40"/>
         </g>
-        <g transform="translate(20,16)">
-          <text x="600" font-size="14" font-family="sans-serif" font-weight="normal">0</text>
-          <text x="320" font-size="14" font-family="sans-serif" font-weight="normal">7</text>
-          <text x="280" font-size="14" font-family="sans-serif" font-weight="normal">8</text>
-          <text x="40" font-size="14" font-family="sans-serif" font-weight="normal">14</text>
-          <text x="0" font-size="14" font-family="sans-serif" font-weight="normal">15</text>
+        <g transform="translate(25,16)">
+          <text x="750" font-size="14" font-family="Arial" font-weight="normal">0</text>
+          <text x="400" font-size="14" font-family="Arial" font-weight="normal">7</text>
+          <text x="350" font-size="14" font-family="Arial" font-weight="normal">8</text>
+          <text x="50" font-size="14" font-family="Arial" font-weight="normal">14</text>
+          <text x="0" font-size="14" font-family="Arial" font-weight="normal">15</text>
         </g>
-        <g transform="translate(20,44)">
-          <text x="460" font-size="14" font-family="sans-serif" font-weight="normal">
+        <g transform="translate(25,44)">
+          <text x="575" font-size="14" font-family="Arial" font-weight="normal">
             <tspan>IPO</tspan>
           </text>
-          <text x="0" font-size="14" font-family="sans-serif" font-weight="normal">
-            <tspan>BRK</tspan>
+          <text x="0" font-size="14" font-family="Arial" font-weight="normal">
+            <tspan>BRKB...</tspan>
+            <title>BRKBRKBRKBRKBRKBRKBRKBRK</title>
           </text>
         </g>
-        <g transform="translate(20,80)">
-          <text x="460" font-size="14" font-family="sans-serif" font-weight="normal">
+        <g transform="translate(25,80)">
+          <text x="575" font-size="14" font-family="Arial" font-weight="normal">
             <tspan>RO</tspan>
           </text>
-          <text x="0" font-size="14" font-family="sans-serif" font-weight="normal">
+          <text x="0" font-size="14" font-family="Arial" font-weight="normal">
             <tspan>RW</tspan>
           </text>
         </g>
@@ -68,66 +69,67 @@
   </g>
   <g transform="translate(4.5,0.5)">
     <g stroke="black" stroke-width="1" stroke-linecap="round" transform="translate(0,20)">
-      <line x2="640"/>
+      <line x2="800"/>
       <line y2="40"/>
-      <line x2="640" y1="40" y2="40"/>
-      <line x1="640" x2="640" y2="40"/>
-      <line x1="600" x2="600" y2="5"/>
-      <line x1="600" x2="600" y1="35" y2="40"/>
-      <line x1="560" x2="560" y2="5"/>
-      <line x1="560" x2="560" y1="35" y2="40"/>
-      <line x1="520" x2="520" y2="5"/>
-      <line x1="520" x2="520" y1="35" y2="40"/>
-      <line x1="480" x2="480" y2="40"/>
-      <line x1="440" x2="440" y2="40"/>
-      <line x1="400" x2="400" y2="5"/>
-      <line x1="400" x2="400" y1="35" y2="40"/>
-      <line x1="360" x2="360" y2="5"/>
-      <line x1="360" x2="360" y1="35" y2="40"/>
-      <line x1="320" x2="320" y2="40"/>
-      <line x1="280" x2="280" y2="5"/>
-      <line x1="280" x2="280" y1="35" y2="40"/>
-      <line x1="240" x2="240" y2="5"/>
-      <line x1="240" x2="240" y1="35" y2="40"/>
+      <line x2="800" y1="40" y2="40"/>
+      <line x1="800" x2="800" y2="40"/>
+      <line x1="750" x2="750" y2="5"/>
+      <line x1="750" x2="750" y1="35" y2="40"/>
+      <line x1="700" x2="700" y2="5"/>
+      <line x1="700" x2="700" y1="35" y2="40"/>
+      <line x1="650" x2="650" y2="5"/>
+      <line x1="650" x2="650" y1="35" y2="40"/>
+      <line x1="600" x2="600" y2="40"/>
+      <line x1="550" x2="550" y2="40"/>
+      <line x1="500" x2="500" y2="5"/>
+      <line x1="500" x2="500" y1="35" y2="40"/>
+      <line x1="450" x2="450" y2="5"/>
+      <line x1="450" x2="450" y1="35" y2="40"/>
+      <line x1="400" x2="400" y2="40"/>
+      <line x1="350" x2="350" y2="5"/>
+      <line x1="350" x2="350" y1="35" y2="40"/>
+      <line x1="300" x2="300" y2="5"/>
+      <line x1="300" x2="300" y1="35" y2="40"/>
+      <line x1="250" x2="250" y2="5"/>
+      <line x1="250" x2="250" y1="35" y2="40"/>
       <line x1="200" x2="200" y2="5"/>
       <line x1="200" x2="200" y1="35" y2="40"/>
-      <line x1="160" x2="160" y2="5"/>
-      <line x1="160" x2="160" y1="35" y2="40"/>
-      <line x1="120" x2="120" y2="5"/>
-      <line x1="120" x2="120" y1="35" y2="40"/>
-      <line x1="80" x2="80" y2="5"/>
-      <line x1="80" x2="80" y1="35" y2="40"/>
-      <line x1="40" x2="40" y2="5"/>
-      <line x1="40" x2="40" y1="35" y2="40"/>
+      <line x1="150" x2="150" y2="5"/>
+      <line x1="150" x2="150" y1="35" y2="40"/>
+      <line x1="100" x2="100" y2="5"/>
+      <line x1="100" x2="100" y1="35" y2="40"/>
+      <line x1="50" x2="50" y2="5"/>
+      <line x1="50" x2="50" y1="35" y2="40"/>
     </g>
     <g text-anchor="middle">
       <g>
         <g transform="translate(0,20)">
-          <rect style="fill-opacity:0.1;fill:hsl(146,100%,50%)" x="480" y="0" width="160" height="40"/>
-          <rect style="fill-opacity:0.1" x="0" y="0" width="320" height="40"/>
+          <rect style="fill-opacity:0.1;fill:hsl(170,100%,50%)" x="600" y="0" width="200" height="40"/>
+          <rect style="fill-opacity:0.1" x="0" y="0" width="400" height="40"/>
         </g>
-        <g transform="translate(20,16)">
-          <text x="600" font-size="14" font-family="sans-serif" font-weight="normal">16</text>
-          <text x="480" font-size="14" font-family="sans-serif" font-weight="normal">19</text>
-          <text x="440" font-size="14" font-family="sans-serif" font-weight="normal">20</text>
-          <text x="400" font-size="14" font-family="sans-serif" font-weight="normal">21</text>
-          <text x="320" font-size="14" font-family="sans-serif" font-weight="normal">23</text>
-          <text x="280" font-size="14" font-family="sans-serif" font-weight="normal">24</text>
-          <text x="0" font-size="14" font-family="sans-serif" font-weight="normal">31</text>
+        <g transform="translate(25,16)">
+          <text x="750" font-size="14" font-family="Arial" font-weight="normal">16</text>
+          <text x="600" font-size="14" font-family="Arial" font-weight="normal">19</text>
+          <text x="550" font-size="14" font-family="Arial" font-weight="normal">20</text>
+          <text x="500" font-size="14" font-family="Arial" font-weight="normal">21</text>
+          <text x="400" font-size="14" font-family="Arial" font-weight="normal">23</text>
+          <text x="350" font-size="14" font-family="Arial" font-weight="normal">24</text>
+          <text x="0" font-size="14" font-family="Arial" font-weight="normal">31</text>
         </g>
-        <g transform="translate(20,44)">
-          <text x="540" font-size="14" font-family="sans-serif" font-weight="normal">
-            <tspan>BRK</tspan>
+        <g transform="translate(25,44)">
+          <text x="675" font-size="14" font-family="Arial" font-weight="normal">
+            <tspan>BRKBRKBRKBRKBRKBRKB...</tspan>
+            <title>BRKBRKBRKBRKBRKBRKBRKBRK</title>
           </text>
-          <text x="440" font-size="14" font-family="sans-serif" font-weight="normal">
+          <text x="550" font-size="14" font-family="Arial" font-weight="normal">
             <tspan>CPK</tspan>
           </text>
-          <text x="360" font-size="14" font-family="sans-serif" font-weight="normal">
+          <text x="450" font-size="14" font-family="Arial" font-weight="normal">
             <tspan>Clear</tspan>
           </text>
         </g>
-        <g transform="translate(20,80)">
-          <text x="540" font-size="14" font-family="sans-serif" font-weight="normal">
+        <g transform="translate(25,80)">
+          <text x="675" font-size="14" font-family="Arial" font-weight="normal">
             <tspan>RW</tspan>
           </text>
         </g>
