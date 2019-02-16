@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "eslint lib/*.js && nyc mocha test",
-    "alpha": "./bin/bitfield.js --input test/alpha.json --hspace 800 > test/alpha.svg",
+    "alpha": "node bin/bitfield.js --input test/alpha.json --hspace 800 > test/alpha.svg",
     "browserify": "browserify --standalone bitfield lib/index.js > build/bitfield.js",
     "prepublish": "npm run test && mkdir -p build && npm run browserify"
   },
