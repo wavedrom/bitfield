@@ -8,14 +8,14 @@ var lib = require('../lib'),
 
 var dat = {
     word: {
-        src: [ { name: 'data', bits: 32 } ],
+        src: [{ name: 'data', bits: 32 }],
         dst: []
     },
     bytes: {
         src: alpha,
         dst: [],
         opt: { hspace: 800 }
-    },
+    }
 };
 
 describe('basic', function () {
