@@ -30,21 +30,24 @@ var html = onml.stringify(jsonml);
 ## CLI Usage
 
 ```sh
-bin/bitfield.js [options] > alpha.svg
+npx bit-field [options] > alpha.svg
 ```
 
 ### options
 
-```
---input      : input JSON filename - must be specified always
---vspace     : vertical space - default 80
---hspace     : horizontal space - default 640
---lanes      : rectangle lanes - default 2
---bits       : overall bitwidth - default 32
---bigendian  : - default false
---fontfamily : - default sans-serif
---fontweight : - default normal
---fontsize   : - default 14
+```sh
+Options:
+  --version     Show version number                                    [boolean]
+  --input, -i   path to the source                                    [required]
+  --vspace      vertical space                                     [default: 80]
+  --hspace      horizontal space                                  [default: 640]
+  --lanes       rectangle lanes                                     [default: 2]
+  --bits        overall bitwidth                                   [default: 32]
+  --fontsize    font size                                          [default: 14]
+  --bigendian   endianness                                      [default: false]
+  --fontfamily  font family                              [default: "sans-serif"]
+  --fontweight  font weight                                  [default: "normal"]
+  --help        Show help                                              [boolean]
 ```
 
 ### alpha.json
