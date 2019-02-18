@@ -1,0 +1,8 @@
+[
+    {"bits": 7, "name": "opcode", "attr": "OP"},
+    {"bits": 5, "name": "rd",     "attr": "dest"},
+    {"bits": 3, "name": "funct3", "attr": ["ADD", "SLT", "SLTU", "AND", "OR", "XOR", "SLL", "SRL", "SUB", "SRA"]},
+    {"bits": 5, "name": "rs1",    "attr": "src1"},
+    {"bits": 5, "name": "rs2",    "attr": "src2"},
+    {"bits": 7, "name": "funct7", "attr": ["0000000", "0000000", "0000000", "0000000", "0000000", "0000000", "0000000", "0000000", "0100000", "0100000"]}
+]
