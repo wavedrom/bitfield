@@ -24,9 +24,9 @@
     "@drom/eslint-config": "^0.9.0",
     "browserify": "^16.2.3",
     "chai": "^4.2.0",
-    "eslint": "^5.14.0",
+    "eslint": "^5.14.1",
     "jsof": "^0.3.2",
-    "mocha": "^5.2.0",
+    "mocha": "^6.0.1",
     "nyc": "^13.3"
   },
   "directories": {
@@ -36,7 +36,7 @@
     "fs-extra": "^7.0.1",
     "onml": "^0.4.0",
     "tspan": "^0.3.6",
-    "yargs": "^13.2.0"
+    "yargs": "^13.2.1"
   },
   "repository": {
     "type": "git",
