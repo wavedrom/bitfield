@@ -15,6 +15,7 @@ var argv = yargs
     .option('bits', {describe: 'overall bitwidth', default: 32})
     .option('fontsize', {describe: 'font size', default: 14})
     .option('bigendian', {describe: 'endianness', default: false})
+    .option('compact', {describe: 'compact format', default: false})
     .option('fontfamily', {describe: 'font family', default: 'sans-serif'})
     .option('fontweight', {describe: 'font weight', default: 'normal'})
     .demandOption(['input'])
