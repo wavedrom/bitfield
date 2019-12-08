@@ -45,6 +45,7 @@ Options:
   --bits        overall bitwidth                                   [default: 32]
   --fontsize    font size                                          [default: 14]
   --bigendian   endianness                                      [default: false]
+  --compact     compact format                                  [default: false]
   --fontfamily  font family                              [default: "sans-serif"]
   --fontweight  font weight                                  [default: "normal"]
   --help        Show help                                              [boolean]
