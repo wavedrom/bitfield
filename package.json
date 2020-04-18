@@ -7,7 +7,8 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint lib/*.js && nyc mocha test",
+    "test": "eslint lib/*.js && nyc -r=lcov -r=text mocha test",
+    "coverage": "nyc report -r=text-lcov | coveralls",
     "alpha": "node bin/bitfield.js --input test/alpha.json --hspace 800 > test/alpha.svg",
     "browserify": "browserify --standalone bitfield lib/index.js > build/bitfield.js",
     "prepublish": "npm run test && mkdir -p build && npm run browserify"
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
     "browserify": "^16.5.1",
+    "coveralls": "^3.0.11",
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
     "jsof": "^0.3.2",
