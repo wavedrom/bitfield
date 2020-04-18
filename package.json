@@ -21,22 +21,22 @@
   "author": "Aliaksei Chapyzhenka",
   "license": "MIT",
   "devDependencies": {
-    "@drom/eslint-config": "^0.9.0",
-    "browserify": "^16.2.3",
+    "@drom/eslint-config": "^0.10.0",
+    "browserify": "^16.5.1",
     "chai": "^4.2.0",
-    "eslint": "^5.14.1",
+    "eslint": "^6.8.0",
     "jsof": "^0.3.2",
-    "mocha": "^6.0.1",
-    "nyc": "^13.3"
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^7.0.1",
-    "onml": "^0.4.5",
+    "fs-extra": "^8.1.0",
+    "onml": "^1.2.0",
     "tspan": "^0.3.6",
-    "yargs": "^13.2.1"
+    "yargs": "^15.3.1"
   },
   "repository": {
     "type": "git",
@@ -51,6 +51,6 @@
   },
   "homepage": "https://github.com/drom/bitfield#readme",
   "eslintConfig": {
-    "extends": "@drom/eslint-config/eslint4/node4"
+    "extends": "@drom/eslint-config/eslint4/node8"
   }
 }
