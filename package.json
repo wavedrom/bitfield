@@ -37,7 +37,7 @@
   "dependencies": {
     "fs-extra": "^8.1.0",
     "onml": "^1.2.0",
-    "tspan": "^0.3.6",
+    "tspan": "^0.4.0",
     "yargs": "^15.3.1"
   },
   "repository": {
