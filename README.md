@@ -70,4 +70,4 @@ Options:
 
 ## Online Examples
 
-  * https://beta.observablehq.com/@drom/nop-v
+https://observablehq.com/collection/@drom/bitfield
