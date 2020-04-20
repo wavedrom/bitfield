@@ -1,6 +1,6 @@
 [![NPM version](https://img.shields.io/npm/v/bit-field.svg)](https://www.npmjs.org/package/bit-field)
-[![Travis ](https://travis-ci.org/drom/bitfield.svg?branch=master)](https://travis-ci.org/drom/bitfield)
-[![Coverage Status](https://coveralls.io/repos/github/drom/bitfield/badge.svg?branch=master)](https://coveralls.io/github/drom/bitfield?branch=master)
+[![Travis ](https://travis-ci.org/wavedrom/bitfield.svg?branch=master)](https://travis-ci.org/wavedrom/bitfield)
+[![Coverage Status](https://coveralls.io/repos/github/wavedrom/bitfield/badge.svg?branch=master)](https://coveralls.io/github/wavedrom/bitfield?branch=master)
 
 ## Install
 
@@ -66,7 +66,7 @@ Options:
 ```
 ### alpha.svg
 
-![Heat Sink](https://rawgit.com/drom/bitfield/master/test/alpha.svg)
+![Heat Sink](https://rawgit.com/wavedrom/bitfield/master/test/alpha.svg)
 
 ## Online Examples
 
