@@ -42,16 +42,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drom/bitfield.git"
+    "url": "git+https://github.com/wavedrom/bitfield.git"
   },
   "keywords": [
     "svg",
     "bitfield"
   ],
   "bugs": {
-    "url": "https://github.com/drom/bitfield/issues"
+    "url": "https://github.com/wavedrom/bitfield/issues"
   },
-  "homepage": "https://github.com/drom/bitfield#readme",
+  "homepage": "https://github.com/wavedrom/bitfield#readme",
   "eslintConfig": {
     "extends": "@drom/eslint-config/eslint4/node8"
   }
