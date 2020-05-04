@@ -11,7 +11,7 @@ npm i bit-field
 ## Library usage
 
 ```js
-var render = require('bit-filed/lib/render');
+var render = require('bit-field/lib/render');
 var onml = require('onml');
 
 var reg = [
