@@ -11,7 +11,7 @@ npm i bit-field
 ## Library usage
 
 ```js
-var render = require('bit-filed/lib/render');
+var render = require('bit-field/lib/render');
 var onml = require('onml');
 
 var reg = [
@@ -39,16 +39,16 @@ npx bit-field [options] > alpha.svg
 Options:
   --version     Show version number                                    [boolean]
   --input, -i   path to the source                                    [required]
-  --vspace      vertical space                                     [default: 80]
-  --hspace      horizontal space                                  [default: 640]
-  --lanes       rectangle lanes                                     [default: 2]
-  --bits        overall bitwidth                                   [default: 32]
-  --fontsize    font size                                          [default: 14]
-  --hflip       horizontal flip                                 [default: false]
-  --vflip       vertical flip                                   [default: false]
-  --compact     compact format                                  [default: false]
+  --vspace      vertical space                            [number] [default: 80]
+  --hspace      horizontal space                         [number] [default: 640]
+  --lanes       rectangle lanes                            [number] [default: 2]
+  --bits        overall bitwidth                          [number] [default: 32]
+  --fontsize    font size                                 [number] [default: 14]
   --fontfamily  font family                              [default: "sans-serif"]
   --fontweight  font weight                                  [default: "normal"]
+  --compact     compact format                        [boolean] [default: false]
+  --hflip       horizontal flip                       [boolean] [default: false]
+  --vflip       vertical flip                         [boolean] [default: false]
   --help        Show help                                              [boolean]
 ```
 
