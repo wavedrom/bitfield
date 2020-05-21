@@ -2,7 +2,8 @@
     {"name": "IPO",   "bits": 8, "attr": "RO"},
     {                  "bits": 7},
     {"name": "BRK",   "bits": 5, "attr": "RW", "type": 4},
-    {"name": "CPK",   "bits": 1, "attr": 0},
+    {"name": "CPK",   "bits": 3, "attr": 2},
+    {"name": "BPS",   "bits": 3, "attr": "42"},
     {"name": "Clear", "bits": 3},
-    {"bits": 8}
+    {"bits": 3}
 ]
