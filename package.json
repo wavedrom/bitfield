@@ -1,6 +1,6 @@
 {
   "name": "bit-field",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "rendering bit field diagram from the description",
   "bin": {
     "bitfield": "./bin/bitfield.js"
