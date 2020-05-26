@@ -40,28 +40,46 @@
           <rect x="49" width="346" height="50" style="fill-opacity:0.1"/>
           <rect width="49" height="50" style="fill-opacity:0.1;fill:hsl(170,100%,50%)"/>
         </g>
-        <g transform="translate(25,-3)">
-          <text x="742">0</text>
-          <text x="396">7</text>
-          <text x="346">8</text>
-          <text x="49">14</text>
-          <text>15</text>
+        <g transform="translate(25,-9)">
+          <g transform="translate(742)">
+            <text y="6">0</text>
+          </g>
+          <g transform="translate(396)">
+            <text y="6">7</text>
+          </g>
+          <g transform="translate(346)">
+            <text y="6">8</text>
+          </g>
+          <g transform="translate(49)">
+            <text y="6">14</text>
+          </g>
+          <g transform="translate(0)">
+            <text y="6">15</text>
+          </g>
         </g>
-        <g transform="translate(25,30)">
-          <text x="569">
-            <tspan>IPO</tspan>
-          </text>
-          <text>
-            <tspan>BRK</tspan>
-          </text>
+        <g transform="translate(25,25)">
+          <g transform="translate(569)">
+            <text y="6">
+              <tspan>IPO</tspan>
+            </text>
+          </g>
+          <g transform="translate(0)">
+            <text y="6">
+              <tspan>BRK</tspan>
+            </text>
+          </g>
         </g>
-        <g transform="translate(25,63)">
-          <text x="569">
-            <tspan>RO</tspan>
-          </text>
-          <text>
-            <tspan>RW</tspan>
-          </text>
+        <g transform="translate(25,57)">
+          <g transform="translate(569)">
+            <text y="6">
+              <tspan>RO</tspan>
+            </text>
+          </g>
+          <g transform="translate(0)">
+            <text y="6">
+              <tspan>RW</tspan>
+            </text>
+          </g>
         </g>
       </g>
     </g>
@@ -103,44 +121,82 @@
           <rect x="593" width="198" height="50" style="fill-opacity:0.1;fill:hsl(170,100%,50%)"/>
           <rect width="148" height="50" style="fill-opacity:0.1"/>
         </g>
-        <g transform="translate(25,-3)">
-          <text x="742">16</text>
-          <text x="593">19</text>
-          <text x="544">20</text>
-          <text x="445">22</text>
-          <text x="396">23</text>
-          <text x="297">25</text>
-          <text x="247">26</text>
-          <text x="148">28</text>
-          <text x="99">29</text>
-          <text>31</text>
-        </g>
-        <g transform="translate(25,30)">
-          <text x="667">
-            <tspan>BRK</tspan>
-          </text>
-          <text x="494">
-            <tspan>CPK</tspan>
-          </text>
-          <text x="346">
-            <tspan>BPS</tspan>
-          </text>
-          <text x="198">
-            <tspan>Clear</tspan>
-          </text>
-        </g>
-        <g transform="translate(25,63)">
-          <text x="667">
-            <tspan>RW</tspan>
-          </text>
-          <g>
-            <text x="544">0</text>
-            <text x="494">1</text>
-            <text x="445">0</text>
+        <g transform="translate(25,-9)">
+          <g transform="translate(742)">
+            <text y="6">16</text>
           </g>
-          <text x="346">
-            <tspan>42</tspan>
-          </text>
+          <g transform="translate(593)">
+            <text y="6">19</text>
+          </g>
+          <g transform="translate(544)">
+            <text y="6">20</text>
+          </g>
+          <g transform="translate(445)">
+            <text y="6">22</text>
+          </g>
+          <g transform="translate(396)">
+            <text y="6">23</text>
+          </g>
+          <g transform="translate(297)">
+            <text y="6">25</text>
+          </g>
+          <g transform="translate(247)">
+            <text y="6">26</text>
+          </g>
+          <g transform="translate(148)">
+            <text y="6">28</text>
+          </g>
+          <g transform="translate(99)">
+            <text y="6">29</text>
+          </g>
+          <g transform="translate(0)">
+            <text y="6">31</text>
+          </g>
+        </g>
+        <g transform="translate(25,25)">
+          <g transform="translate(667)">
+            <text y="6">
+              <tspan>BRK</tspan>
+            </text>
+          </g>
+          <g transform="translate(494)">
+            <text y="6" transform="rotate(-45)">
+              <tspan>CPK</tspan>
+            </text>
+          </g>
+          <g transform="translate(346)">
+            <text y="6">
+              <tspan>BPS</tspan>
+            </text>
+          </g>
+          <g transform="translate(198)">
+            <text y="6">
+              <tspan>Clear</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(25,57)">
+          <g transform="translate(667)">
+            <text y="6">
+              <tspan>RW</tspan>
+            </text>
+          </g>
+          <g>
+            <g transform="translate(544)">
+              <text y="6">0</text>
+            </g>
+            <g transform="translate(494)">
+              <text y="6">1</text>
+            </g>
+            <g transform="translate(445)">
+              <text y="6">0</text>
+            </g>
+          </g>
+          <g transform="translate(346)">
+            <text y="6">
+              <tspan>42</tspan>
+            </text>
+          </g>
         </g>
       </g>
     </g>
