@@ -23,22 +23,22 @@
   "license": "MIT",
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
-    "browserify": "^16.5.1",
+    "browserify": "^17.0.0",
+    "chai": "^4.3.4",
     "coveralls": "^3.0.11",
-    "chai": "^4.2.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.24.0",
     "jsof": "^0.3.2",
-    "mocha": "^7.1.1",
-    "nyc": "^15.0.1"
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0",
-    "onml": "^1.2.0",
+    "fs-extra": "^9.1.0",
+    "onml": "^2.1.0",
     "tspan": "^0.4.0",
-    "yargs": "^15.3.1"
+    "yargs": "^16.2.0"
   },
   "repository": {
     "type": "git",
