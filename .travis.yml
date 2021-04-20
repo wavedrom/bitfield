@@ -1,9 +1,9 @@
 language: node_js
 node_js:
+  - "16"
   - "14"
   - "12"
   - "10"
-  - "8"
 os:
   - linux
   - osx
