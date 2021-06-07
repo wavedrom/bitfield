@@ -2,7 +2,7 @@
 [![Linux](https://github.com/wavedrom/bitfield/actions/workflows/linux.yml/badge.svg)](https://github.com/wavedrom/bitfield/actions/workflows/linux.yml)
 [![MacOS](https://github.com/wavedrom/bitfield/actions/workflows/macos.yml/badge.svg)](https://github.com/wavedrom/bitfield/actions/workflows/macos.yml)
 [![Windows](https://github.com/wavedrom/bitfield/actions/workflows/windows.yml/badge.svg)](https://github.com/wavedrom/bitfield/actions/workflows/windows.yml)
-[![Coverage Status](https://coveralls.io/repos/github/wavedrom/bitfield/badge.svg?branch=master)](https://coveralls.io/github/wavedrom/bitfield?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/wavedrom/bitfield/badge.svg?branch=trunk)](https://coveralls.io/github/wavedrom/bitfield?branch=trunk)
 
 ## Install
 
