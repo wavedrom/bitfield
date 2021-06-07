@@ -39,19 +39,19 @@ npx bit-field [options] > alpha.svg
 
 ```sh
 Options:
-  --version     Show version number                                    [boolean]
-  --input, -i   path to the source                                    [required]
-  --vspace      vertical space                            [number] [default: 80]
-  --hspace      horizontal space                         [number] [default: 640]
-  --lanes       rectangle lanes                            [number] [default: 2]
-  --bits        overall bitwidth                          [number] [default: 32]
-  --fontsize    font size                                 [number] [default: 14]
-  --fontfamily  font family                              [default: "sans-serif"]
-  --fontweight  font weight                                  [default: "normal"]
-  --compact     compact format                        [boolean] [default: false]
-  --hflip       horizontal flip                       [boolean] [default: false]
-  --vflip       vertical flip                         [boolean] [default: false]
-  --help        Show help                                              [boolean]
+      --version     Show version number                                [boolean]
+  -i, --input       path to the source                                [required]
+      --vspace      vertical space                        [number] [default: 80]
+      --hspace      horizontal space                     [number] [default: 640]
+      --lanes       rectangle lanes                        [number] [default: 2]
+      --bits        overall bitwidth                      [number] [default: 32]
+      --fontsize    font size                             [number] [default: 14]
+      --fontfamily  font family                          [default: "sans-serif"]
+      --fontweight  font weight                              [default: "normal"]
+      --compact     compact format                    [boolean] [default: false]
+      --hflip       horizontal flip                   [boolean] [default: false]
+      --vflip       vertical flip                     [boolean] [default: false]
+      --help        Show help                                          [boolean]
 ```
 
 ### alpha.json
