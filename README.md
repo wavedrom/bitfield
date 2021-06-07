@@ -13,19 +13,19 @@ npm i bit-field
 ## Library usage
 
 ```js
-var render = require('bit-field/lib/render');
-var onml = require('onml');
+const render = require('bit-field/lib/render');
+const onml = require('onml');
 
-var reg = [
+const reg = [
   {bits: 8, name: 'data'}
 ];
 
-var options = {
+const options = {
   hspace: 888
 };
 
-var jsonml = render(reg, options);
-var html = onml.stringify(jsonml);
+const jsonml = render(reg, options);
+const html = onml.stringify(jsonml);
 // <svg...>
 ```
 
