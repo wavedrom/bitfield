@@ -26,19 +26,19 @@
     "browserify": "^17.0.0",
     "chai": "^4.3.4",
     "coveralls": "^3.0.11",
-    "eslint": "^7.24.0",
+    "eslint": "^7.28.0",
     "jsof": "^0.3.2",
-    "mocha": "^8.3.2",
+    "mocha": "^9",
     "nyc": "^15.1.0"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10",
     "onml": "^2.1.0",
     "tspan": "^0.4.0",
-    "yargs": "^16.2.0"
+    "yargs": "^17"
   },
   "repository": {
     "type": "git",
