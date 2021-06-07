@@ -1,4 +1,7 @@
 [![NPM version](https://img.shields.io/npm/v/bit-field.svg)](https://www.npmjs.org/package/bit-field)
+[![Linux](https://github.com/wavedrom/bitfield/actions/workflows/linux.yml/badge.svg)](https://github.com/wavedrom/bitfield/actions/workflows/linux.yml)
+[![MacOS](https://github.com/wavedrom/bitfield/actions/workflows/macos.yml/badge.svg)](https://github.com/wavedrom/bitfield/actions/workflows/macos.yml)
+[![Windows](https://github.com/wavedrom/bitfield/actions/workflows/windows.yml/badge.svg)](https://github.com/wavedrom/bitfield/actions/workflows/windows.yml)
 [![Travis ](https://travis-ci.org/wavedrom/bitfield.svg?branch=master)](https://travis-ci.org/wavedrom/bitfield)
 [![Coverage Status](https://coveralls.io/repos/github/wavedrom/bitfield/badge.svg?branch=master)](https://coveralls.io/github/wavedrom/bitfield?branch=master)
 
