@@ -68,7 +68,7 @@ Options:
 ```
 ### alpha.svg
 
-![Heat Sink](https://rawgit.com/wavedrom/bitfield/master/test/alpha.svg)
+![Heat Sink](test/alpha.svg)
 
 ## Online Examples
 
