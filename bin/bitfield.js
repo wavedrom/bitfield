@@ -19,6 +19,7 @@ var argv = yargs
   .option('compact', {describe: 'compact format', type: 'boolean', default: false})
   .option('hflip', {describe: 'horizontal flip', type: 'boolean', default: false})
   .option('vflip', {describe: 'vertical flip', type: 'boolean', default: false})
+  .option('uneven', {describe: 'make lanes uneven if bitsize is odd', type: 'boolean', default: false})
   .demandOption(['input'])
   .help()
   .argv;
