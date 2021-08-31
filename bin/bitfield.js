@@ -12,7 +12,7 @@ var argv = yargs
   .option('vspace', {describe: 'vertical space', type: 'number', default: 80})
   .option('hspace', {describe: 'horizontal space', type: 'number', default: 640})
   .option('lanes', {describe: 'rectangle lanes', type: 'number', default: 2})
-  .option('bits', {describe: 'overall bitwidth', type: 'number', default: 32})
+  .option('bits', {describe: 'overall bitwidth', type: 'number', default: undefined})
   .option('fontsize', {describe: 'font size', type: 'number', default: 14})
   .option('fontfamily', {describe: 'font family', default: 'sans-serif'})
   .option('fontweight', {describe: 'font weight', default: 'normal'})
