@@ -24,21 +24,21 @@
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
     "browserify": "^17.0.0",
-    "chai": "^4.3.4",
+    "chai": "^4.3.6",
     "coveralls": "^3.0.11",
-    "eslint": "^7.28.0",
-    "jsof": "^0.3.2",
-    "mocha": "^9",
+    "eslint": "^8.23.0",
+    "jsof": "^0.5.0",
+    "mocha": "^10.0.0",
     "nyc": "^15.1.0"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "fs-extra": "^10",
+    "fs-extra": "^10.1.0",
     "onml": "^2.1.0",
     "tspan": "^0.4.0",
-    "yargs": "^17"
+    "yargs": "^17.5.1"
   },
   "repository": {
     "type": "git",
