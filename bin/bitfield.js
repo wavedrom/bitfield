@@ -20,6 +20,7 @@ var argv = yargs
   .option('hflip', {describe: 'horizontal flip', type: 'boolean', default: false})
   .option('vflip', {describe: 'vertical flip', type: 'boolean', default: false})
   .option('uneven', {describe: 'make lanes uneven if bitsize is odd', type: 'boolean', default: false})
+  .option('trim', {describe: 'trim long bitfield names by specifying the horizontal space available for a single character', type: 'number'})
   .demandOption(['input'])
   .help()
   .argv;
