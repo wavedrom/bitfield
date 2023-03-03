@@ -21,6 +21,7 @@ var argv = yargs
   .option('vflip', {describe: 'vertical flip', type: 'boolean', default: false})
   .option('uneven', {describe: 'make lanes uneven if bitsize is odd', type: 'boolean', default: false})
   .option('trim', {describe: 'trim long bitfield names by specifying the horizontal space available for a single character', type: 'number'})
+  .option('offset', {describe: 'offset for the lane index', type: 'number'})
   .demandOption(['input'])
   .help()
   .argv;

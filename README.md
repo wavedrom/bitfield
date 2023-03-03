@@ -51,6 +51,8 @@ Options:
       --compact     compact format                    [boolean] [default: false]
       --hflip       horizontal flip                   [boolean] [default: false]
       --vflip       vertical flip                     [boolean] [default: false]
+      --trim        trim long names                                     [number]
+      --offset      offset the index lanes                              [number]
       --help        Show help                                          [boolean]
 ```
 
