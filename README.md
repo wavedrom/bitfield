@@ -29,6 +29,18 @@ const html = onml.stringify(jsonml);
 // <svg...>
 ```
 
+## JSON Schema
+
+`lib/schema.js` is the [JSON Schema](https://json-schema.org/) (draft-07) of the `{reg: [...], config: {...}}` input.
+It is part of the [WaveDrom schema](https://github.com/wavedrom/schema).
+
+```js
+const Ajv = require('ajv');
+const schema = require('bit-field/lib/schema.js'); // or require('bit-field').schema
+const validate = new Ajv().compile(schema);
+validate({reg: [{bits: 8, name: 'data'}]}); // true
+```
+
 ## CLI Usage
 
 ```sh

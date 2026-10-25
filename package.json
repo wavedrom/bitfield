@@ -1,6 +1,6 @@
 {
   "name": "bit-field",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "rendering bit field diagram from the description",
   "bin": {
     "bitfield": "./bin/bitfield.js"
@@ -22,6 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@drom/eslint-config": "^0.12.0",
+    "ajv": "^8.20.0",
     "browserify": "^17.0.0",
     "chai": "^4.4.1",
     "eslint": "^8.56.0",
