@@ -5,8 +5,6 @@ const {expect} = require('chai');
 
 const schema = require('../lib/schema.js');
 
-/* eslint-env mocha */
-
 const good = {
   alpha: {reg: require('./alpha.json')},
   rv32iAlu: {reg: require('./rv32i-alu.json')},

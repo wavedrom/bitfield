@@ -1,11 +1,6 @@
-.nyc_output
 coverage
 node_modules
 package-lock.json
 
-.eslintrc.js
-.npmignore
-.travis.yml
-appveyor.yml
 test
 *.svg
